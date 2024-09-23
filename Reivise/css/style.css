@@ -122,9 +122,27 @@ position: relative;
 
 /* card-block-------------------------------------------------------- */
 
-.page__services{
+.page__services {}
 
-}
+.services {}
+
+.services__container {}
+
+._container {}
+
+.services__body {}
+
+.services__collum {}
+
+.services__item {}
+
+.item-service {}
+
+.item-service__icon {}
+
+.item-service__title {}
+
+.item-service__text {}
 
 
 /* footer------------------------------------------------------------ */
