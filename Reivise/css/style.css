@@ -52,6 +52,8 @@ body {
 }
 .page__advantages {
 }
+.page__practice {
+}
 /* header-block ------------------------------------------------------------- */
 
 .header-block {
@@ -224,6 +226,64 @@ body {
     font-size: 16px;
     letter-spacing: 0.1px;
     line-height: 150%;
+}
+/* practice----------------------------------------------------------- */
+
+.practice {
+    padding: 125px 0 80px 0;
+}
+.practice__container {
+}
+
+.practice__header {
+    margin-bottom: 45px;
+}
+.practice__body {
+    margin: 0 -20px -30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.practice__collum {
+    padding: 0 20px;
+    margin-bottom: 30px;
+    flex: 0 1 25%;
+}
+.practice__item {
+}
+.item-plactice__content {
+    padding: 30px;
+    flex: 1 1 auto;
+}
+.item-practice {
+    background-color: var(--base-white);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.item-practice__link {
+    color: inherit;
+    display: inline-block;
+}
+.item-practice__link:hover {
+    text-decoration: underline;
+}
+.item-plactice__link:not(:last-child) {
+    margin-bottom: 15px;
+}
+.item-practice__title {
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 150%;
+
+    font-weight: 700;
+}
+.item-practice__text {
+    color: var(--main-gray);
+    line-height: 142%;
+}
+.item-practice__image {
+    padding-bottom: 60%;
+    display: block;
 }
 
 /* footer------------------------------------------------------------ */

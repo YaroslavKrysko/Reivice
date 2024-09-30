@@ -3,11 +3,17 @@
         object-position: right;
     }
 }
+@media (max-width: 1040px) {
+    .practice__collum {
+        flex: 0 1 50%;
+    }
+}
 @media (max-width: 1020px) {
     .advantages__collum {
         flex: 0 1 50%;
     }
 }
+
 @media (max-width: 992px) {
     .header__menu {
         margin-left: 80px;
@@ -36,6 +42,9 @@
     .header-block__title {
         font-size: 35px;
     }
+    .practice {
+        padding: 40px 0 40px 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -50,6 +59,17 @@
     }
     .advantages__header {
         margin-bottom: 25px;
+    }
+    .practice {
+        padding: 0px 0 40px 0;
+    }
+    .practice__header {
+        margin: 0 0 25px 0;
+    }
+}
+@media (max-width: 630px) {
+    .practice__collum {
+        flex: 0 1 100%;
     }
 }
 @media (max-width: 560px) {
