@@ -11,6 +11,7 @@ body {
 /* colors---------------------------------------------------------------------- */
 :root {
     --main-blue: #252842;
+    --subscribe-blue: #17213c;
     --main-gray: #737373;
     --button-orange: #ff7b47;
     --button-green: #0d5c63;
@@ -55,6 +56,11 @@ body {
 .page__practice {
 }
 .page__whoweare {
+}
+.page__clients {
+    margin: 0 0 10px 0;
+}
+.page__subscribe {
 }
 /* header-block ------------------------------------------------------------- */
 
@@ -291,6 +297,7 @@ body {
 
 .whoweare {
     padding: 80px 0 130px 0;
+    background-color: var(--base-white);
 }
 .whoweare__container {
 }
@@ -363,5 +370,92 @@ body {
 .item-whoweare__text {
     color: var(--main-gray);
     line-height: 142%;
+}
+/* clients----------------------------------------------------------- */
+
+.clients {
+    padding: 50px 0;
+}
+.clients__container {
+}
+
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.clients__item {
+    padding: 8px 15px;
+    flex: 0 1 16.6667%;
+    text-align: center;
+    min-width: 140px;
+}
+.clients__item img {
+    max-width: 100%;
+}
+
+/* subscribe--------------------------------------------------------- */
+.subscribe {
+    position: relative;
+    padding-bottom: 20px;
+}
+.subscribe::before {
+    background-color: var(--main-blue);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 77px;
+}
+.subscribe__container {
+}
+
+.subscribe__body {
+    position: relative;
+    z-index: 3;
+    padding: 30px 50px;
+    align-items: center;
+    background-color: var(--subscribe-blue);
+    border-radius: 2px;
+}
+.subscribe__title {
+    flex: 0 1 50%;
+    color: var(--base-white);
+    font-size: 24px;
+    line-height: 133%;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+.subscribe_form {
+    flex: 0 1 50%;
+    display: flex;
+    align-items: center;
+}
+.subscribe__input {
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 58px;
+    padding: 0 20px;
+    border: 1px solid var(--background-white);
+    background-color: var(--base-white);
+    color: var(--main-gray);
+    border-radius: 5px 0 0 5px;
+}
+.subscribe__input:focus {
+    color: #000;
+}
+.subscribe__button {
+    padding: 0 22px;
+    background-color: var(--button-orange);
+    border: 1px solid var(--background-white);
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    min-height: 58px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--base-white);
 }
 /* footer------------------------------------------------------------ */
