@@ -1,0 +1,17 @@
+.menu {
+	padding: 5px 0;
+	&__list {
+			flex-wrap: wrap;
+			display: flex;
+		}
+	&__item{
+		&:not(:last-child) {
+				margin-right: 21px;
+			}
+	}
+	&__link {
+		color: var(--main-gray);
+		font-weight: 600;
+		line-height: 171%;
+	}
+}

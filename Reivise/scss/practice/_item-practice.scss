@@ -1,0 +1,42 @@
+.item-practice {
+	background-color: var(--base-white);
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+
+	&__content {
+		padding: 30px;
+		flex: 1 1 auto;
+	}
+
+	&__link {
+		color: inherit;
+		display: inline-block;
+
+		&:hover {
+			text-decoration: underline;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__title {
+		letter-spacing: 0.1px;
+		font-size: 16px;
+		line-height: 150%;
+
+		font-weight: 700;
+	}
+
+	&__text {
+		color: var(--main-gray);
+		line-height: 142%;
+	}
+
+	&__image {
+		padding-bottom: 60%;
+		display: block;
+	}
+}

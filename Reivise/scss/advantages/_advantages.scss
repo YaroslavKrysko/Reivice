@@ -1,0 +1,42 @@
+
+.advantages {
+	padding: 80px 0px;
+	&__header {
+			margin-bottom: 50px;
+		}
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0px -15px;
+	}
+	&__collum {
+		margin-bottom: 30px;
+		padding: 0px 15px;
+		flex: 0 1 25%;
+	}
+	&__item {
+		background-color: var(--base-white);
+		padding: 30px;
+		font-weight: 700;
+		text-align: center;
+		&>*:not(:last-child) {
+				margin-bottom: 10px;
+			}
+	}
+	&__icon {
+		height: 48px;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+	}
+	&__value {
+		font-size: 40px;
+		line-height: 142%;
+	}
+	&__text {
+		color: var(--main-gray);
+		font-size: 16px;
+		letter-spacing: 0.1px;
+		line-height: 150%;
+	}
+}

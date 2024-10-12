@@ -1,0 +1,33 @@
+.contacts-footer {
+	display: flex;
+	flex-direction: column;
+
+	&__item {
+		padding: 0 0 0 34px;
+		line-height: 142%;
+		display: flex;
+		color: var(--base-white);
+		align-items: center;
+		min-height: 30px;
+
+		&:not(:last-child) {
+			margin-bottom: 12px;
+		}
+
+		&:hover {
+			text-decoration: underline;
+		}
+
+		&_phone {
+			background: url(../img/footer/footer_1.svg) left no-repeat;
+		}
+
+		&_map {
+			background: url(../img/footer/footer_2.svg) left no-repeat;
+		}
+
+		&_email {
+			background: url(../img/footer/footer_3.svg) left no-repeat;
+		}
+	}
+}

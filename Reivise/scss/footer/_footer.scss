@@ -1,0 +1,27 @@
+.footer {
+	background-color: var(--subscribe-blue);
+	padding: 30px 0;
+	&__row {
+			display: flex;
+			margin: 0px -15px;
+	
+			flex-wrap: wrap;
+		}
+	&__column {
+		flex: 0 1 16.667%;
+		padding: 20px 15px;
+		&:last-child {
+				flex: 0 1 33%;
+			}
+	}
+	&__label {
+		color: var(--base-white);
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 150%;
+		margin: 0 0 20px 0;
+	}
+}
+
+
+

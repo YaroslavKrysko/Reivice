@@ -1,0 +1,29 @@
+.item-service {
+	&>*:not(:last-child) {
+		margin-bottom: 10px;
+	}
+
+	&__green {
+		background-color: var(--button-green);
+		.item-service__title{
+			color: var(--base-white);
+		}
+		.item-service__text{
+			color: var(--base-white);
+		}
+	}
+
+	&__title {
+		color: var(--main-blue);
+		font-weight: 700;
+		font-size: 24px;
+		letter-spacing: 0.1px;
+		line-height: 133%;
+	}
+
+	&__text {
+		color: var(--main-gray);
+		line-height: 143%;
+	}
+
+}

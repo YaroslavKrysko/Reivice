@@ -1,0 +1,18 @@
+.practice {
+	padding: 125px 0 80px 0;
+	&__header {
+			margin-bottom: 45px;
+		}
+	&__body {
+		margin: 0 -20px -30px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__collum {
+		padding: 0 20px;
+		margin-bottom: 30px;
+		flex: 0 1 25%;
+	}
+}
+
+
